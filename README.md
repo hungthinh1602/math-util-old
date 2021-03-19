@@ -7,8 +7,8 @@
 * (TBA...)
 
 ### Connect me via:
-[My email_1] (hungthinh16022000@gmail.com)  
-[My email_2] (thinhdphse140958@fpt.edu.vn)
+[My email_1] [hungthinh16022000@gmail.com]  
+[My email_2] [thinhdphse140958@fpt.edu.vn]
 
 
 © 2021 hungthinh
