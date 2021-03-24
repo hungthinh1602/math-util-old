@@ -48,3 +48,5 @@ public class MathTest {
             getFactorial(40);
         }
 }
+//main là phần của app để chạy và vẫn có thể clean and build khi sai 
+//test class thì ko được
