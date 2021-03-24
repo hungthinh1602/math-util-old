@@ -1,4 +1,7 @@
 ## Welcome to Math Utility Repository. This REPO offer various math methods used as a helper for your project.
+
+[![MathUtil-CI | Demo | ©2021 by HungThinh](https://github.com/hungthinh1602/math-util/actions/workflows/mathutil-ci.yml/badge.svg)](https://github.com/hungthinh1602/math-util/actions/workflows/mathutil-ci.yml)
+
 ### _You will find in this repo the following stuff:_  
 
 * .gitignore itself to demonstrate how Git tool wull upload a file or not
