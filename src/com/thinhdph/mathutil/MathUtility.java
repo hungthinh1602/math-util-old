@@ -20,6 +20,22 @@ public class MathUtility {
     // kiểu long chịu đc 10^18 18 con số 0
     //âm giai thừa không tính được
     
+//    public static long getFactorial(int n){
+//        if(n<0 || n>20)
+//            throw new IllegalArgumentException("Invalid argument. "
+//            + " n must be between 0..20");
+//        
+//        if(n==0 | n==1)
+//            return 1; // khỏi mất công tính, return ngay
+//       
+//        long result = 1; 
+//        
+//        //sống sót đến đoạn này, sure n= 2..20
+//        for (int i = 2; i <= n; i++) 
+//            result *= i;
+//        //n! = 1*2*3*4*5*...n
+//        return result;
+//    }
     public static long getFactorial(int n){
         if(n<0 || n>20)
             throw new IllegalArgumentException("Invalid argument. "
@@ -27,13 +43,7 @@ public class MathUtility {
         
         if(n==0 | n==1)
             return 1; // khỏi mất công tính, return ngay
-       
-        long result = 1; 
-        
-        //sống sót đến đoạn này, sure n= 2..20
-        for (int i = 2; i <= n; i++) 
-            result *= i;
-        //n! = 1*2*3*4*5*...n
-        return result;
+
+        return n * getFactorial(n -1);
     }
 }
